@@ -1,0 +1,17 @@
+<div class="list-item">
+  <div class="item-header">
+    <img class="item-image" [src]=data.img>
+    <div class="header-description">
+      <div class="upper-header"><span class="user-title">{{data.name}}</span><span class="status" [ngClass]="{'red':!data.approved && data.completed, 'green':data.approved && data.completed}">{{data.status}}</span></div>
+      <div class="lower-header"><span>{{data.raised}}</span><span class="status">{{data.id}}</span></div>
+    </div>
+  </div>
+  <div class="description-wrapper">
+    <div class="title">{{data.title}}</div>
+    <div class="description" [innerHTML]="data.description"></div>
+  </div>
+  <div class="button-wrapper" *ngIf="!data.completed">
+    <button class="button-reject" mat-button>REJECT</button>
+    <button class="button-approve" mat-button>APPROVE</button>
+  </div>
+</div>

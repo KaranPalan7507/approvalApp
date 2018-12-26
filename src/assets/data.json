@@ -1,0 +1,121 @@
+{
+    "pending": [
+        {
+            "img": "./assets/Roy.png",
+            "name": "Roy Thompson",
+            "raised": "RAISED ON : 10 JUL",
+            "id": "INVOICE : 61296483",
+            "title": "Returns Approval",
+            "description": "$ 1,250.67 | 203 SALES ERROR | SALES & MARKETING <br> GORDONS GOLF & SKI SHOP | SOLD TO PARTY 5617",
+            "completed": false
+        },
+        {
+            "img": "./assets/Tara.png",
+            "name": "Tara Cunningham",
+            "raised": "RAISED ON : 10 JUL",
+            "Auto-approved": "15 JUL",
+            "id": "VSEC : ACRs1122334",
+            "title": "VSEC Approval",
+            "description": "EXTEND VALIDITY BY 1 YEAR <br> TO PROVIDE TECHNICAL SUPPORT TO ABC APPLICATION",
+            "completed": false
+        },
+        {
+            "img": "./assets/Ray.jpg",
+            "name": "Ruben Ray",
+            "raised": "RAISED ON : 10 JUL",
+            "Auto-approved": "15 JUL",
+            "id": "ID : 00241H",
+            "title": "Claims Approval",
+            "description": "AMOUNT $ 125 | TAXI | CLIENT MEETING",
+            "completed": false
+        },
+        {
+            "img": "./assets/Ray.jpg",
+            "name": "Ruben Ray",
+            "raised": "RAISED ON : 10 JUL",
+            "Auto-approved": "15 JUL",
+            "id": "ID : 00241H",
+            "title": "Travel Request Approval",
+            "description": "$ 1,250 | BUSINESS TRAVEL | SALES & MARKETING <br> 2 DAYS | 27 JUN NEW YORK | 28 JUL BOSTON",
+            "completed": false
+        }
+    ],
+    "autoApprove": [
+        {
+            "img": "./assets/Roy.png",
+            "name": "Roy Thompson",
+            "raised": "RAISED ON : 10 JUL",
+            "status": "Auto-approve : 15 JUL",
+            "id": "ID : 00241H",
+            "title": "Leave Request",
+            "description": "Duration : 12 DAYS | FROM : 27 JUN | TO : 5 JUL <br> TYPE: PTO - PAID TIME OFF",
+            "completed": false
+        },
+        {
+            "img": "./assets/Tara.png",
+            "name": "Tara Cunningham",
+            "raised": "RAISED ON : 10 JUL",
+            "status": "Auto-approve : 15 JUL",
+            "id": "ID : 00241H",
+            "title": "Leave Request",
+            "description": "Duration : 12 DAYS | FROM : 27 JUN | TO : 5 JUL <br> TYPE: PTO - PAID TIME OFF",
+            "completed": false
+        },
+        {
+            "img": "./assets/Ray.jpg",
+            "name": "Ruben Ray",
+            "raised": "RAISED ON : 10 JUL",
+            "status": "Auto-approve : 15 JUL",
+            "id": "ID : 00241H",
+            "title": "Leave Request",
+            "description": "27 JUN <br> TYPE: PTO - PAID TIME OFF",
+            "completed": false
+        }
+    ],
+    "completed": [
+        {
+            "img": "./assets/Roy.png",
+            "name": "Roy Thompson",
+            "raised": "RAISED ON : 10 JUL",
+            "status": "Auto-approved : 15 JUL",
+            "id": "ID : 00241H",
+            "title": "Leave Request",
+            "description": "Duration : 12 DAYS | FROM : 27 JUN | TO : 5 JUL <br> TYPE: PTO - PAID TIME OFF",
+            "completed": true,
+            "approved": true
+        },
+        {
+            "img": "./assets/Tara.png",
+            "name": "Tara Cunningham",
+            "raised": "RAISED ON : 10 JUL",
+            "status": "Rejected : 15 JUL",
+            "id": "VSEC : ACRS1122334",
+            "title": "VSEC Approval",
+            "completed": true,
+            "description": "EXTEND VALIDITY BY 1 YEAR <br> TO PROVIDE TECHNICAL SUPPORT TO ABC APPLICATION",
+            "approved": false
+        },
+        {
+            "img": "./assets/Ray.jpg",
+            "name": "Ruben Ray",
+            "raised": "RAISED ON : 10 JUL",
+            "status": "Approved : 15 JUL",
+            "id": "ID : 00241H",
+            "title": "Claims Approval",
+            "description": "AMOUNT $ 125 | TAXI | CLIENT MEETING",
+            "completed": true,
+            "approved": true
+        },
+        {
+            "img": "./assets/Ray.jpg",
+            "name": "Ruben Ray",
+            "raised": "RAISED ON : 10 JUL",
+            "status": "Auto-approved : 15 JUL",
+            "id": "ID : 00241H",
+            "title": "TRAVEL REQUEST APPROVAL",
+            "description": "$ 1,250 | BUSINESS TRAVEL | SALES & MARKETING <br> 2 DAYS | 27 JUN NEW YORK | 28 JUL BOSTON",
+            "completed": true,
+            "approved": true
+        }
+    ]
+}

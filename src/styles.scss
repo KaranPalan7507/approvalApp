@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body{
+    margin: 0;
+    font-size:16px;
+    background-color: #F7F7F7;
+}
+.mat-tab-label-active{
+    color:#6e6e6e;
+    font-weight: bold;
+}
+.mat-tab-group.mat-primary .mat-ink-bar,.mat-tab-nav-bar.mat-primary .mat-ink-bar{
+    background-color: #6e6e6e;
+}
+.mat-tab-label{
+    padding: 8px !important;
+    min-width: auto !important;
+}
+.mat-tab-label .mat-tab-label-content{
+    font-size: 0.8em !important;
+}
+@media screen and (max-width:767px){
+    body{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:567px){
+    body{
+        font-size: 12px;
+    }
+}
